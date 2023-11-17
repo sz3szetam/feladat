@@ -25,7 +25,7 @@ console.log(language);
 
 
 
-function printPerson({  name, age, grade, subjects}) {
+function printStudentInfo({  name, age, grade, subjects}) {
     console.log(`${name}, ${grade}, ${subjects}, ${age} éves`);
   }
   
@@ -35,4 +35,4 @@ function printPerson({  name, age, grade, subjects}) {
     grade: 'B',
     subjects: ['Math', 'English', 'History']
   };
-  printPerson(student);
+  printStudentInfo(student);
